@@ -17,7 +17,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.mriduldk:CalendarDayEvent-Android:Tag'
+	        implementation 'com.github.mriduldk:CalendarDayEvent-Android:0.1.0'
 	}
 
 
@@ -37,7 +37,7 @@ Step 2. Add the dependency
 	<dependency>
 	    <groupId>com.github.mriduldk</groupId>
 	    <artifactId>CalendarDayEvent-Android</artifactId>
-	    <version>Tag</version>
+	    <version>0.1.0</version>
 	</dependency>
   
   
