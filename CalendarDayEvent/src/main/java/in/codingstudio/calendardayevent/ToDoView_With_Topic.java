@@ -72,15 +72,15 @@ public class ToDoView_With_Topic extends FrameLayout {
 
 
     protected void init(AttributeSet attrs) {
-        LayoutInflater.from(getContext()).inflate(R.layout.view_event_popup_updated, this, true);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.view_event_popup_updated, this, true);
 
-        mDescription        = findViewById(R.id.textViewDescription);
-        mCardView           =  findViewById(R.id.cardViewParent);
-        mEndTime            = findViewById(R.id.textViewEndTime);
-        mStartTime          = findViewById(R.id.textViewStartTime);
-        mTopic              = findViewById(R.id.textViewTopic);
-        mLinearLayoutParent = findViewById(R.id.linearLayoutParent);
-        mLinearLayoutChild  = findViewById(R.id.linearLayoutChild);
+        mDescription        = view.findViewById(R.id.textViewDescription);
+        mCardView           = view.findViewById(R.id.cardViewParent);
+        mEndTime            = view.findViewById(R.id.textViewEndTime);
+        mStartTime          = view.findViewById(R.id.textViewStartTime);
+        mTopic              = view.findViewById(R.id.textViewTopic);
+        mLinearLayoutParent = view.findViewById(R.id.linearLayoutParent);
+        mLinearLayoutChild  = view.findViewById(R.id.linearLayoutChild);
 
 
         mCardView.setOnClickListener(new OnClickListener() {

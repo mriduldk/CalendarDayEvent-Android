@@ -6,12 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <ScrollView-->
-<!--        android:id="@+id/scrollView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        >-->
         <in.codingstudio.calendardayevent.CalendarDayEvent
             android:id="@+id/dayView"
             android:layout_width="match_parent"
@@ -19,6 +13,5 @@
             app:dayHeight="@dimen/dayHeight"
             app:layout_constraintTop_toTopOf="parent"/>
 
-<!--    </ScrollView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

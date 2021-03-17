@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<ToDo> todos;
     private CalendarDayEvent dayEvent;
-    private ScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         dayEvent = findViewById(R.id.dayView);
-        scrollView = findViewById(R.id.scrollView);
 
         dayEvent.setLimitTime(0, 24);
 
@@ -46,15 +44,12 @@ public class MainActivity extends AppCompatActivity {
         todos.add(to);
 
 
-
         Calendar timeStart2 = Calendar.getInstance();
         timeStart2.set(Calendar.HOUR_OF_DAY, 16);
         timeStart2.set(Calendar.MINUTE, 0);
         Calendar timeEnd2 = (Calendar) timeStart.clone();
         timeEnd2.set(Calendar.HOUR_OF_DAY, 19);
         timeEnd2.set(Calendar.MINUTE, 30);
-
-
 
         ToDo to2 = new ToDo();
         to2.setTopic("trip");
@@ -64,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         to2.setColor(getResources().getColor(R.color.baby_blue));
 
         todos.add(to2);
+
 
         dayEvent.setTodos(todos);
 
