@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
         timeStart.set(Calendar.MINUTE, 0);
         Calendar timeEnd = (Calendar) timeStart.clone();
         timeEnd.set(Calendar.HOUR_OF_DAY, 13);
-        timeEnd.set(Calendar.MINUTE, 0);
+        timeEnd.set(Calendar.MINUTE, 30);
 
         ToDo to = new ToDo();
-        to.setTopic("message");
-        to.setDescription("Desc");
+        to.setTopic("Meetings");
+        to.setDescription("Have to call Kripa");
         to.setStartTime(timeStart);
         to.setEndTime(timeEnd);
         to.setColor(getResources().getColor(R.color.orange));
@@ -48,12 +48,12 @@ public class MainActivity extends AppCompatActivity {
         timeStart2.set(Calendar.HOUR_OF_DAY, 16);
         timeStart2.set(Calendar.MINUTE, 0);
         Calendar timeEnd2 = (Calendar) timeStart.clone();
-        timeEnd2.set(Calendar.HOUR_OF_DAY, 19);
-        timeEnd2.set(Calendar.MINUTE, 30);
+        timeEnd2.set(Calendar.HOUR_OF_DAY, 18);
+        timeEnd2.set(Calendar.MINUTE, 0);
 
         ToDo to2 = new ToDo();
-        to2.setTopic("trip");
-        to2.setDescription("Want to go to Goa");
+        to2.setTopic("work");
+        to2.setDescription("Complete pending android project\nCommit to Github");
         to2.setStartTime(timeStart2);
         to2.setEndTime(timeEnd2);
         to2.setColor(getResources().getColor(R.color.baby_blue));
