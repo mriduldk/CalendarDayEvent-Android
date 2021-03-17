@@ -1,0 +1,3 @@
+include ':CalendarDayEvent'
+include ':app'
+rootProject.name = "CalenderDayEvent"
