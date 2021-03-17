@@ -1,6 +1,9 @@
 # CalendarDayEvent-Android
 Day view of calendar and event can be added to any time of the day
 
+## Screen Shot
+![Alt text](./image/Screenshot.png?raw=true "Title")
+
 # How to
 To get a Git project into your build:
 
@@ -41,5 +44,6 @@ Step 2. Add the dependency
 	</dependency>
   
   
-  
-  
+# Contribution
+1. Overlapping ToDos are currently not available. You can contribute this feature.
+2. If you've found an error, please file an issue.
