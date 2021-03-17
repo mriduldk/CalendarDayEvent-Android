@@ -49,12 +49,15 @@ Step 2. Add the dependency
   
  # How to Use
  
+ ## XML
 ````xml
 <in.codingstudio.calendardayevent.CalendarDayEvent
         android:id="@+id/calendarDayEvent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 ````
+
+## Java
 ````Java
 	// Create a ToDo ArrayList to store all ToDos
 	private ArrayList<ToDo> todos;
@@ -92,6 +95,7 @@ Step 2. Add the dependency
 
 ````
 
+## Kotlin
 ````Kotlin
 	// Create a ToDo ArrayList to store all ToDos
 	private var todos = ArrayList<ToDo>()
